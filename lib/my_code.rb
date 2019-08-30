@@ -14,9 +14,9 @@ def map_to_double(array)
     array.map { |e|e**2  }
   end
 
-  def reduce_to_total(array)
-   array.reduce(:+)
-  end
+  # def reduce_to_total(array)
+  #  array.reduce(:+)
+  # end
 
 
   # reduce(initial, sym) → obj click to toggle source

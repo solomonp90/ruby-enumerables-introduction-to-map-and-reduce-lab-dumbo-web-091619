@@ -9,6 +9,10 @@ end
 def map_to_double(array)
   array.map { |e|e*2  }
   end
+
+  def map_to_square(array)
+    array
+  end
 # map { |obj| block } → array click to toggle source
 # map → an_enumerator
 # Returns a new array with the results of running block once for every element in enum.

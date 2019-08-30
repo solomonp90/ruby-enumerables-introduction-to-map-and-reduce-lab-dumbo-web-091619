@@ -14,7 +14,7 @@ def map_to_double(array)
     array.map { |e|e**2  }
   end
 
-   def reduce_to_total(array)
+   def reduce_to_total
     (1..3).reduce(:+)
    end
 

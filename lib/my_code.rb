@@ -22,8 +22,8 @@ def map_to_double(array)
       if arry<sp do
         array.reduce(:+)
       end
-    end
-   
+    
+
 
 
 #array.reduce(:+)

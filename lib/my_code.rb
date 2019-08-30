@@ -4,7 +4,7 @@ base=source_array.length
 base.map{|i|-i.abs}
 
 
-
+map_to_negative
 end
 
 

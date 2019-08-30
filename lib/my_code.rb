@@ -13,6 +13,11 @@ def map_to_double(array)
   def map_to_square(array)
     array.map { |e|e**2  }
   end
+
+  def reduce_to_total(array)
+
+    
+  end
 # map { |obj| block } → array click to toggle source
 # map → an_enumerator
 # Returns a new array with the results of running block once for every element in enum.

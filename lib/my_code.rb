@@ -23,7 +23,9 @@ def map_to_double(array)
 #array.reduce(:+)
 
 #reduce_to_total returns a running total when not given a starting point
+def reduce_to_all_true
 
+end
 
 
 

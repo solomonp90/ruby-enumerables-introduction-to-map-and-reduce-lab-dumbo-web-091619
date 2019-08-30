@@ -1,7 +1,12 @@
 def map_to_negativize(array)
 array.map { |e|e*-1 }
 end
-
+# Returns a new array with the results of running block once for every element in enum.
+#
+# If no block is given, an enumerator is returned instead.
+#
+# (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
+# (1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]
 def map_to_no_change(array)
 array
 end

@@ -4,7 +4,7 @@ base.map { |e|e*-1 }
 end
 
 def map_to_no_change(array)
-array.map
+array
 end
 # map { |obj| block } → array click to toggle source
 # map → an_enumerator

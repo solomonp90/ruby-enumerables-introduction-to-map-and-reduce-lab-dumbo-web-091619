@@ -15,7 +15,7 @@ def map_to_double(array)
   end
 
    def reduce_to_total(array,starting_point)
-     array.reduce(:+)
+     array..starting_point.reduce(:+)
 end
 
 

@@ -1,5 +1,6 @@
 def map_to_negative(source_array)
-
+base = source_array.size
+base.map { |e|*-1  }
 end
 
 

@@ -15,7 +15,7 @@ def map_to_double(array)
   end
 
    def reduce_to_total(array)
-    array.inject {|e|array.size+e}
+    1..3.inject {|e|array.size+e}
    end
 
 

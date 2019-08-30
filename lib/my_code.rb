@@ -36,7 +36,8 @@ end
 # [1, 2i, 3.14].all?(Numeric)                       #=> true
 # [nil, true, 99].all?                              #=> false
 # [].all?                                           #=> true
-def redu
+def reduce_to_any_true(array)
+  
 
 end
 

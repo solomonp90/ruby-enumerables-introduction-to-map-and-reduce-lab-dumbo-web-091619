@@ -17,8 +17,11 @@ def map_to_double(array)
    def reduce_to_total(array,starting_point)
     array=array.length
     sp = starting_point
-    if condition
-
+    while array[starting_point] do
+      sp+=1
+      if arry<sp do
+        array.reduce(:+)
+      end
     end
    end
 

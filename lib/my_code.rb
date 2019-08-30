@@ -15,7 +15,7 @@ def map_to_double(array)
   end
 
     def reduce_to_total(array,starting_point=0)
-   array.reduce(:+)
+   starting_point.reduce(:+)
  end
 
 #(5..10).inject { |sum, n| sum + n }

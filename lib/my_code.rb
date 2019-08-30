@@ -19,10 +19,8 @@ def map_to_double(array)
     sp = starting_point
     while array[starting_point] do
       sp+=1
-      if arry<sp do
-        array.reduce(:+)
       end
-    
+
 
 
 

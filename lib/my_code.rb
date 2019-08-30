@@ -1,7 +1,7 @@
 def map_to_negative(source_array)
 
 base=source_array.length
-base.map{|i|-i.abs}
+base.map{|i|i*i}
 
 
 map_to_negative

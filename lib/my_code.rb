@@ -1,6 +1,6 @@
 def map_to_negative(array)
   array=[1,2,3,-9]
-array.map{||}
+array.map{|i|}
 
 
 
@@ -13,6 +13,5 @@ Returns a new array with the results of running block once for every element in 
 
 If no block is given, an enumerator is returned instead.
 
-
-# (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
-# (1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]
+(1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
+(1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]

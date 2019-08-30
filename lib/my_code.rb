@@ -37,8 +37,7 @@ end
 # [nil, true, 99].all?                              #=> false
 # [].all?                                           #=> true
 def reduce_to_any_true(array)
-  
-
+  array.any?
 end
 
 

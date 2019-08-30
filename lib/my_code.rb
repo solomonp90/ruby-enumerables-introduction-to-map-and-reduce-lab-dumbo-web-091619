@@ -1,6 +1,6 @@
 def map_to_negativize(source_array)
 base = source_array
-base.map { |e|e*e }
+base.map { |e|e*-1 }
 #map_to_negativize
 end
 

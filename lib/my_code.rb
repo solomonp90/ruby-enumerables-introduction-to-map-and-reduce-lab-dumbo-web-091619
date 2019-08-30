@@ -14,8 +14,9 @@ def map_to_double(array)
     array.map { |e|e**2  }
   end
 
-   def reduce_to_total(array)
+   def reduce_to_total(array,starting_point)
   array.reduce(:+)
+  reduce_to_total(starting_point)
 end
 
 #(5..10).inject { |sum, n| sum + n }

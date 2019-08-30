@@ -1,4 +1,4 @@
-def map_to_negative(array)
+def map_to_negative(source_array)
   array=[1,2,3,-9]
 base=array.length
 base.map{|i|-i.abs}

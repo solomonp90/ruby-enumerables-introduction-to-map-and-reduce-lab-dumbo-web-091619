@@ -1,7 +1,7 @@
 def map_to_negative(array)
   array=[1,2,3,-9]
 base=array.length
-base.map{|i|-}
+base.map{|i|-i.abs}
 
 
 

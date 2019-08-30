@@ -15,11 +15,15 @@ def map_to_double(array)
   end
 
    def reduce_to_total(array,starting_point)
-    (starting_point).reduce(:+)
+    array=array.length
+    sp = starting_point
+    if condition
+
+    end
    end
 
 
-
+#array.reduce(:+)
 
 #reduce_to_total returns a running total when not given a starting point
 

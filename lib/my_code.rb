@@ -15,7 +15,7 @@ def map_to_double(array)
   end
 
   def reduce_to_total(array)
-   array.reduce
+   array.all? { |e|  }
   end
 # map { |obj| block } → array click to toggle source
 # map → an_enumerator

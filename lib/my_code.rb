@@ -25,3 +25,10 @@ def map_to_double(array)
 #
 # (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
 # (1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]
+
+# 1) my own reduce-like methods reduce_to_total returns a running total when not given a starting point reduces correctly
+#     Failure/Error: expect(reduce_to_total(source_array)).to eq(6)
+#     NoMethodError:
+#       undefined method `reduce_to_total' for #<RSpec::ExampleGroups::MyOwnReduceLikeMethods::ReduceToTotalReturnsARunningTotalWhenNotGivenAStartingPo
+# int:0x00000000023ea970>
+#     # ./spec/map_and_reduce_spec.rb:34:in `block (3 levels) in <top (required)>'

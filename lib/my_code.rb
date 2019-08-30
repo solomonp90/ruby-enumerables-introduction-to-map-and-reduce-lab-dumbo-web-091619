@@ -11,7 +11,7 @@ def map_to_double(array)
   end
 
   def map_to_square(array)
-    array
+    array.map { |e|e**2  }
   end
 # map { |obj| block } → array click to toggle source
 # map → an_enumerator

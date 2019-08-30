@@ -23,7 +23,7 @@ def map_to_double(array)
         array.reduce(:+)
       end
     end
-   end
+   
 
 
 #array.reduce(:+)

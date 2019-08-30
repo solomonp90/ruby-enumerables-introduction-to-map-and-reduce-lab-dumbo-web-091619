@@ -3,7 +3,9 @@ base = source_array
 base.map { |e|e*-1 }
 end
 
+def map_to_no_change(array)
 
+end
 # map { |obj| block } → array click to toggle source
 # map → an_enumerator
 # Returns a new array with the results of running block once for every element in enum.

@@ -19,6 +19,30 @@ def map_to_double(array)
    end
 
 
+
+
+#reduce_to_total returns a running total when not given a starting point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   # reduce(initial, sym) → obj click to toggle source
   # reduce(sym) → obj
   # reduce(initial) { |memo, obj| block } → obj

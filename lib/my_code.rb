@@ -24,7 +24,6 @@ def map_to_double(array)
 
 #reduce_to_total returns a running total when not given a starting point
 def reduce_to_all_true(array)
-  #array.all? { |e|array.length }
   array.all?
 end
 # Passes each element of the collection to the given block. The method returns true if the block never returns false or nil. If the block is not given, Ruby adds an implicit block of { |obj| obj } which will cause all? to return true when none of the collection members are false or nil.
@@ -37,7 +36,9 @@ end
 # [1, 2i, 3.14].all?(Numeric)                       #=> true
 # [nil, true, 99].all?                              #=> false
 # [].all?                                           #=> true
+def redu
 
+end
 
 
 

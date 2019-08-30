@@ -1,5 +1,5 @@
 def map_to_negativize(array)
-array.map { |e|e*-1 }
+    array.map { |e|e*-1 }
 end
 # Returns a new array with the results of running block once for every element in enum.
 #
@@ -8,26 +8,21 @@ end
 # (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
 # (1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]
 def map_to_no_change(array)
-array
+    array
 end
 
 def map_to_double(array)
-  array.map { |e|e*2  }
-  end
+    array.map { |e|e*2  }
+end
 
-  def map_to_square(array)
+def map_to_square(array)
     array.map { |e|e**2  }
-  end
+end
 
-    def reduce_to_total(array,starting_point=0)
-   array.reduce(:+)+starting_point
- end
+def reduce_to_total(array,starting_point=0)
+    array.reduce(:+)+starting_point
+end
 
-#(5..10).inject { |sum, n| sum + n }
-
-#array.reduce(:+)
-
-#reduce_to_total returns a running total when not given a starting point
 def reduce_to_all_true(array)
   array.all?
 end
